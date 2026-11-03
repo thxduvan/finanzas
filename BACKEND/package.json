@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "xd",
+  "homepage": "https://github.com/thxduvan/finanzas#readme",
+  "bugs": {
+    "url": "https://github.com/thxduvan/finanzas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thxduvan/finanzas.git"
+  },
+  "license": "MIT",
+  "author": "thx",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
