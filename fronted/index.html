@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CC/style.css">
+
+    
+    <title>FINANZAS</title>
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo">
+            <h1>ADMINISTRRACION DE GASTOS</h1>
+            <P class="CONTEXTO"> registra tus gastos</P>
+
+            <label for="monto">monto</label>
+            <input type="number" id="monto" placeholder="ej: 239999">
+
+            <label for="fecha">fecha</label>
+            <input type="date" id="fecha">
+
+            <label for="categoria">categoria</label>
+            <select id="categoria">
+                <option value="comida">comida</option>
+                <option value="salud">salud</option>
+                <option value="servicios">servicios</option>
+                <option value="salario">salario</option>
+            </select>
+
+            <button class="guardar">Guardar</button>
+        </div>
+
+        <div class="hijo2">
+            <h2>mis gastos</h2>
+            <div class="registro ingreso">
+                <div class="informacion">
+                    <span class="monto-valor">$250.000</span>
+                    <span class="categoria-valor">salario</span>
+
+                </div>
+                <div class="acciones">
+                    <button class="accion">editar</button>
+                    <button class="accion">eliminar</button>
+                </div>
+            </div>
+
+            <div class="registro gasto">
+                <div class="informacion">
+                    <span class="monto-valor">$250.000</span>
+                    <span class="categoria-valor">salario</span>
+                </div>
+                <div class="acciones">
+                    <button class="accion">editar</button>
+                    <button class="accion">eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
