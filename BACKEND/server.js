@@ -1,12 +1,10 @@
-console.log("ihfdaKSbvhQ2JOHOWQvbkjbhsfjoi")
 
+const router = require("./routes/router")
 const express = require("express")
 const app = express()
-let port = 3000
+let port = 4000
 
-app.get("/",(req,res)=>{
-    res.send("tests")
-})
+app.use("/api",router)
 
 app. listen(port, ()=>{
     console.log(`mi primera vez usando un condon & {port}`)
