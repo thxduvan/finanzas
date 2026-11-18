@@ -5,6 +5,7 @@ const app = express()
 let port = 4000
 
 app.use("/api",router)
+app.use
 
 app. listen(port, ()=>{
     console.log(`mi primera vez usando un condon & {port}`)
