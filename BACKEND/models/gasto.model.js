@@ -11,4 +11,4 @@ class GastoModel{
     }
 
 }
-module.exports = GastoModel
+module.exports = GastoModel 

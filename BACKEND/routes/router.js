@@ -9,3 +9,4 @@ router.get("/categoria", controlar.obtenerCategorias)
 
 module.exports = router
 
+fetch
