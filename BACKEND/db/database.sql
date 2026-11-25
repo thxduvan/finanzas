@@ -18,3 +18,4 @@ insert into movimientos(monto,fecha,id_categoria) values
 (60000.00, '2026-10-05', 1), -- Comida
 (120000.00, '2026-10-10', 3), -- Servicios
 (45000.00, '2026-10-15', 2); -- Salud
+
